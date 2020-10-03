@@ -33,7 +33,7 @@
 				</header>
 				<p>Creamos experiencias para compartir con todos los amantes de la pantalla grande</p>
 				<footer>
-					<a href="#first" class="button style2 scrolly">Comprar</a>
+					<a href="#form" class="button style2 scrolly">Comprar</a>
 				</footer>
 			</section>
 
@@ -44,11 +44,11 @@
 					<header>
 						<h2>The shining</h2>
 					</header>
-					<p>Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
+					<p>Sientete parte del Overlook</p>
 				</div>
 			</article>
 
-		<!-- Feature 2 -->
+		<!-- Feature 2 
 			<article class="container box style1 left">
 				<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 				<div class="inner">
@@ -59,11 +59,11 @@
 					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
 				</div>
 			</article>
-
-		<!-- Portfolio -->
+		-->
+		 Portfolio -->
 			<article class="container box style2">
 				<header>
-					<h2>Magnis parturient</h2>
+					<h2>Nuestros eventos</h2>
 					<p>Justo phasellus et aenean dignissim<br />
 					placerat cubilia purus lectus.</p>
 				</header>
@@ -84,21 +84,29 @@
 			</article>
 
 		<!-- Contact -->
-			<article class="container box style3">
+			<article id="form" class="container box style3">
 				<header>
-					<h2>Nisl sed ultricies</h2>
-					<p>Diam dignissim lectus eu ornare volutpat orci.</p>
+					<h2>Compra ya tu entrada!</h2>
+					<p>Cupo limitado</p>
 				</header>
 				<form method="post" action="#">
-					<div class="row gtr-50">
-						<div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Name" /></div>
-						<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
+						</div>
+						<div class="col-6 col-12-mobile">
+							<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
+						</div>
 						<div class="col-12">
-							<textarea name="message" placeholder="Message"></textarea>
+							<select name="department" id="department">
+								<option value="">Elije el tipo de entrada</option>
+								<option value="1">Caja + Zoom</option>
+								<option value="2">Zoom</option>
+							</select>
 						</div>
 						<div class="col-12">
 							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
+								<li><input type="submit" value="Submit" /></li>
 							</ul>
 						</div>
 					</div>
