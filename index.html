@@ -5,119 +5,172 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Apollo Film Club</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<img width="45%" height="45%"" style="padding-right: 2%" src="images/Apollo_logo_blanco.png" alt="" />
-					<!--<h1>Apollo Film Club</h1>-->
-					<p>    Club de cine y experiencias cinéfilas</p>
-				</header>
-				<footer>
-					<a href="#banner" class="button style2 scrolly-middle">Ver mas</a>
-				</footer>
-			</section>
+<head>
+	<title>Apollo Film Club</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
 
-		<!-- Banner 
-			<section id="banner">
-				<header>
-					<h2>Amor por el cine</h2>
-				</header>
-				<p>Creamos experiencias para compartir con todos los amantes de la pantalla grande</p>
-				<footer>
-					<a href="#form" class="button style2 scrolly">Comprar</a>
-				</footer>
-			</section>-->
+<body class="is-preload">
 
-		<!-- Feature 1 -->
-			<article id="banner"  >
-				<a href="#" class="image fit"><img width="30%" height="30%"" src="images/shining.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>The shining</h2>
-					</header>
-					<p>Sientete parte del Overlook</p>
+	<!-- Header -->
+	<section id="header">
+		<header>
+			<img width="45%" height="45%"" style=" padding-right: 2%" src="images/Apollo_logo_blanco.png" alt="" />
+			<!--<h1>Apollo Film Club</h1>-->
+			<p> Club de cine y experiencias cinéfilas</p>
+		</header>
+		<footer>
+			<a href="#banner" class="button style2 scrolly-middle">Ver mas</a>
+		</footer>
+	</section>
+
+	<!-- Banner -->
+	<section id="banner">
+		<header>
+			<h2>Amor por el cine</h2>
+		</header>
+		<p>Creamos experiencias para compartir con todos los amantes de la pantalla grande</p>
+		<footer>
+			<a href="#form" class="button style2 scrolly">Comprar</a>
+		</footer>
+	</section>
+
+	<!-- Feature 1 -->
+	<article id="first" class="container box style1 right">
+		<a href="#" class="image fit"><img width="30%" height="30%"" src=" images/shining.png" alt="" /></a>
+		<div class="inner">
+			<header>
+				<h2>The shining</h2>
+			</header>
+			<p>Sientete parte del Overlook</p>
+		</div>
+	</article>
+
+	<!-- Contact -->
+	<article id="form" class="container box style3">
+		<header>
+			<h2>Compra ya tu entrada!</h2>
+			<p>Cupo limitado</p>
+		</header>
+		<form name="gform" id="gform" method="post" target="hidden_iframe" onsubmit="submitted=true;"
+			enctype="text/plain"
+			action="https://docs.google.com/forms/d/e/1FAIpQLSf0PoB2lB54W_1XAuTJXkwdMpQgNI49zRiaGZa4NBaKTCy9wQ/formResponse?">
+			<div class="row">
+				<div class="col-6 col-12-mobile">
+					<input class="text" type="text" name="entry.2092238618" id="entry.2092238618" value=""
+						placeholder="John Doe" />
 				</div>
-				<footer>
-					<a href="#form" class="button style2 scrolly">Comprar</a>
-				</footer>
-				
-			</article>
-
-		<!-- Feature 2 
-			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Mollis posuere<br />
-						lectus lacus</h2>
-					</header>
-					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
+				<div class="col-6 col-12-mobile">
+					<input class="text" type="text" name="entry.1556369182" id="entry.1556369182" value=""
+						placeholder="johndoe@domain.tld" />
 				</div>
-			</article>
+				<div class="col-12">
+					<select name="entry.588393791" id="entry.588393791">
+						<option value="Caja + Zoom">Atrapados en el Overlook + Film Box</option>
+						<option value="Zoom">Atrapados en el Overlook</option>
+					</select>
+				</div>
+				<div class="col-12">
+					<ul class="actions">
+						<li><input type="submit" value="Comprar" /></li>
+					</ul>
+				</div>
+			</div>
+		</form>
+		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+	</article>
+
+
+	<section id="footer">
+		<ul class="icons">
+			<li><a href="https://twitter.com/apollofilmclub" class="icon brands fa-twitter"><span
+						class="label">Twitter</span></a></li>
+			<li><a href="https://www.facebook.com/apollofilmclub" class="icon brands fa-facebook-f"><span
+						class="label">Facebook</span></a></li>
+			<li><a href="https://www.instagram.com/apollofilmclub" class="icon brands fa-instagram"><span
+						class="label">Instagram</span></a></li>
+		</ul>
+		<div class="copyright">
+			<ul class="menu">
+				<li>&copy; Apollo Film Club. All rights reserved.</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript">var submitted = false;</script>
+	<script type="text/javascript">
+		var submitted = false;
+		$('#gform').on('submit', function (e) {
+			$('#gform *').fadeOut(2000);
+			$('#gform').prepend('Tu pedido esta siendo procesado...');
+			var type = document.getElementById("entry.588393791").value
+			if (type == "Caja + Zoom") {
+				window.location.replace("https://mpago.la/1h5yuEU");
+			}
+			else {
+				window.location.replace("https://mpago.la/2eFUeSE");
+			}
+		});
 		
-		<!--	<article class="container box style2">
-				<header>
-					<h2>Nuestros eventos</h2>
-					<p>Justo phasellus et aenean dignissim<br />
-					placerat cubilia purus lectus.</p>
-				</header>
-				<div class="inner gallery">
-					<div class="row gtr-0">
-						<div class="col-3 col-12-mobile"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
-						<div class="col-3 col-12-mobile"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
-						<div class="col-3 col-12-mobile"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="Raven" /></a></div>
-						<div class="col-3 col-12-mobile"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="I'll have a cup of Disneyland, please" /></a></div>
+
+
+	</script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- 
+		<article id="form" class="container box style3">
+			<header>
+				<h2>Compra ya tu entrada!</h2>
+				<p>Cupo limitado</p>
+			</header>
+			<form name="gform" id="gform" method="post" enctype="text/plain"  action="https://formspree.io/f/xdoparbb" target="hidden_iframe" onsubmit="submitted=true;">
+				<div class="row">
+					<div class="col-6 col-12-mobile">
+						<input class="text" type="text" name="entry.2092238618" id="entry.2092238618" value="" placeholder="Dr Man" />
 					</div>
-					<div class="row gtr-0">
-						<div class="col-3 col-12-mobile"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="Cherish" /></a></div>
-						<div class="col-3 col-12-mobile"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="Different." /></a></div>
-						<div class="col-3 col-12-mobile"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="History was made here" /></a></div>
-						<div class="col-3 col-12-mobile"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>
+					<div class="col-6 col-12-mobile">
+						<input class="text" type="text" name="entry.1556369182" id="entry.1556369182" value="" placeholder="drman@nasa.gov" />
+					</div>
+					<div class="col-12">
+						<select name="entry.588393791" id="entry.588393791">
+							<option value="Caja + Zoom">Caja + Zoom</option>
+							<option value="Zoom">Zoom</option>
+							<option value="None">None</option>
+						</select>
+					</div>
+					<div class="col-12">
+						<ul class="actions">
+							<li><input type="submit" value="Comprar" /></li>
+						</ul>
 					</div>
 				</div>
-			</article>
--->
-		<!-- Contact -->
-			<article id="form" class="container box style3">
-				<header>
-					<h2>Compra ya tu entrada!</h2>
-					<p>Cupo limitado</p>
-				</header>
-				<form method="post" action="#">
-					<div class="row">
-						<div class="col-6 col-12-mobile">
-							<input class="text" type="text" name="name" id="name" value="" placeholder="Dr Man" />
-						</div>
-						<div class="col-6 col-12-mobile">
-							<input class="text" type="text" name="email" id="email" value="" placeholder="drman@nasa.gov" />
-						</div>
-						<div class="col-12">
-							<select name="department" id="department">
-								<option value="">Elije el tipo de entrada</option>
-								<option value="1">Caja + Zoom</option>
-								<option value="2">Zoom</option>
-							</select>
-						</div>
-						<div class="col-12">
-							<ul class="actions">
-								<li><input type="submit" value="Comprar" /></li>
-							</ul>
-						</div>
-					</div>
-				</form>
-			</article>
+			</form>
+			<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+		</article>
 
-		<!-- Generic -->
-		<!--
+
+-->
+
+<!-- Generic -->
+<!--
 			<article class="container box style3">
 				<header>
 					<h2>Generic Box</h2>
@@ -265,27 +318,39 @@
 			</article>
 		-->
 
-		<section id="footer">
-			<ul class="icons">
-				<li><a href="https://twitter.com/apollofilmclub" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="https://www.facebook.com/apollofilmclub" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="https://www.instagram.com/apollofilmclub" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-			</ul>
-			<div class="copyright">
-				<ul class="menu">
-					<li>&copy; Apollo Film Club. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
-		</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<!-- Feature 2 
+			<article class="container box style1 left">
+				<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Mollis posuere<br />
+						lectus lacus</h2>
+					</header>
+					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
+				</div>
+			</article>
+		-->
 
-	</body>
-</html>
+<!--	<article class="container box style2">
+				<header>
+					<h2>Nuestros eventos</h2>
+					<p>Justo phasellus et aenean dignissim<br />
+					placerat cubilia purus lectus.</p>
+				</header>
+				<div class="inner gallery">
+					<div class="row gtr-0">
+						<div class="col-3 col-12-mobile"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="Raven" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="I'll have a cup of Disneyland, please" /></a></div>
+					</div>
+					<div class="row gtr-0">
+						<div class="col-3 col-12-mobile"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="Cherish" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="Different." /></a></div>
+						<div class="col-3 col-12-mobile"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="History was made here" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>
+					</div>
+				</div>
+			</article>
+-->
