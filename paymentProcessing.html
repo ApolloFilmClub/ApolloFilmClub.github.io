@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Apollo Film Club</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+   
+	<section id="header">
+		<header>
+			<img width="45%" height="45%"" style="padding-right: 2%" src="images/Apollo_logo_blanco.png" alt="" />
+         <h2 style="padding-top: 50%">Procesando Pago...</h2>
+		</header>
+
+	</section>
+	<script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript">var submitted = false;</script>
+	<script type="text/javascript">
+		var submitted = false;
+		$('#gform').on('submit', function (e) {
+			$('#gform *').fadeOut(2000);
+			$('#gform').prepend('Tu pedido esta siendo procesado...');
+			var type = document.getElementById("entry.588393791").value
+			if (type == "Caja + Zoom") {
+				window.location.replace("https://mpago.la/1h5yuEU");
+			}
+			else {
+				window.location.replace("https://mpago.la/2eFUeSE");
+			}
+		});
+		
+
+
+	</script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
